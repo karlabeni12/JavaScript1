@@ -18,13 +18,32 @@
 
   var firstName = "Karla";
   console.log(firstName);
+  var middleName = "Cecilia";
+  console.log(middleName);
   var lastName = "Benitez";
   console.log(lastName);
   var name = firstName + " " + lastName
   console.log(name);
-  var statements = "My name is" + " " + firstName
+  var statements = "My name is " + firstName
   console.log(statements);
-  var greeting = "Hi," + " " + statements
+  var greeting = "Hi, " + statements
   console.log(greeting);
+
+  function squareIt(number) {
+    var squared = number * number;
+    console.log(squared);
+  }
+
+  squareIt(5)
+  squareIt(10)
+  squareIt(15)
+
+  function makeName (firstName, middleName, lastName) {
+    return firstName + " " + middleName + " " + lastName;
+    console.log(makeName);
+    }
+makeName('Ana', 'Mary', 'Gomez');
+makeName('Daniel', 'Adrian', 'Benavides');
+makeName('Carmen', 'Ale', 'Bunker');
   </script>
 </body>
